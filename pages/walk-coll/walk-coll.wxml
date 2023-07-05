@@ -1,0 +1,32 @@
+<!--pages/walk-coll/walk-coll.wxml-->
+<view class="top">
+  <view>
+    <text>小提示：</text>
+  </view>
+  <view>
+    <text>-- 点击“开始”按钮后，带着手机进入走路状态。系统会自动开始采集数据，采集过程持续10秒。</text>
+  </view>
+  <view>
+    <text>-- 手机可以握在手中，也可以放入口袋或背包（限定实验条件）</text>
+  </view>
+  <view>
+    <text>-- 采集过程中，若想中断本次数据采集，可直接返回上一层页面</text>
+  </view>
+  <view>
+    <text>-- 采集结束之后可以选择上传，或取消上传。并可直接点击“开始”按钮进行下一次采集</text>
+  </view>
+</view>
+
+<view class="bottom">
+  <view class="btn">
+    <button bindtap="startCollection" disabled="{{is_reading}}">开始</button>
+  </view>
+  <view class="acc_show">
+    <view>当前采集时间：{{timeStep}} s</view>
+    <view>x轴加速度: {{x_acc}}</view>
+    <view>y轴加速度: {{y_acc}}</view>
+    <view>z轴加速度: {{z_acc}}</view>
+  </view>
+</view>
+
+

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="weui-msg__title">
+  感谢使用此程序！
+</view>
+
+<view class="container">
+  <view class="button">
+    <button class="weui-btn weui-btn_primary" bindtap="toCollectionIndex">录入数据</button>
+  </view>
+  <view class="button">
+    <button class="weui-btn weui-btn_primary" bindtap="toRecognize">动作识别</button>
+  </view>
+</view>
+

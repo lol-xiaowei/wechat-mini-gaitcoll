@@ -1,0 +1,9 @@
+<!--pages/coll-index/coll-index.wxml-->
+<view class="tip">
+  <title>选择您即将录入的数据种类吧：</title>
+</view>
+
+<view class="container">
+  <button class="btn" bindtap="toWalkCollection">走路</button>
+  <button class="btn" bindtap="toRunCollection">跑步</button>
+</view>

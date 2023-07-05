@@ -1,0 +1,27 @@
+/* pages/coll-index/coll-index.wxss */
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column; 
+  /* justify-content: center; */ /* 垂直居中 */
+  align-items: center;  /* 水平居中 */
+  background-color: #FFE9C5;
+}
+
+.tip {
+  margin-top: 60rpx;
+  margin-left: 40rpx;
+}
+
+.container {
+  padding: 30rpx;
+  margin-top: 120rpx;
+  background-color: #FFCC99;
+  border-radius: 50rpx;
+}
+
+.container .btn {
+  padding: 15rpx;
+  margin: 80rpx;
+}

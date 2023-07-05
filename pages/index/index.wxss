@@ -1,0 +1,21 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column; 
+  /* justify-content: center; */ /* 垂直居中 */
+  align-items: center;  /* 水平居中 */
+  background-color: #FFE9C5;
+}
+
+.weui-msg__title {
+  padding: 50rpx;
+  margin-bottom: 100rpx;
+}
+
+.container .button {
+  padding: 20px;
+  border: 50px;
+  margin: 20px;
+}

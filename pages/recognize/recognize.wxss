@@ -1,0 +1,15 @@
+/* pages/recognize/recognize.wxss */
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column; 
+  /* justify-content: center; */ /* 垂直居中 */
+  align-items: center;  /* 水平居中 */
+  background-color: #FFE9C5;
+}
+
+.main {
+  padding-top: 100rpx;
+  font-style: italic;
+}

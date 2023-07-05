@@ -1,0 +1,18 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/recognize/recognize",
+        "pages/coll-index/coll-index",
+        "pages/walk-coll/walk-coll",
+        "pages/run-coll/run-coll"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FA9191",
+        "navigationBarTitleText": "步态采集",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
